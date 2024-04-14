@@ -32,3 +32,4 @@ To interact with HashBot, open a conversation with the bot on Facebook Messenger
 - List all commands: `.help`
 # Auto-Bot
 # FB-Bot
+# Auto-Bot
