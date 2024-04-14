@@ -1,0 +1,101 @@
+2024-01-02T16:40:54.035Z [error]: Error in MQTT listener:
+[object Object]
+2024-01-02T20:00:16.330Z [error]: ❌ Login failed. 
+Authentication record: 61554291612256.json
+[object Object]
+2024-01-03T07:39:48.736Z [error]: ❌ Failed to retrieve user information. 
+Authentication record: 100050204992183.json
+[object Object]
+2024-01-03T07:39:58.901Z [error]: Error in MQTT listener:
+[object Object]
+2024-01-03T07:49:29.942Z [error]: ❌ Failed to retrieve user information. 
+Authentication record: 100050204992183.json
+[object Object]
+2024-01-03T07:52:27.475Z [error]: ❌ Failed to retrieve user information. 
+Authentication record: 100050204992183.json
+[object Object]
+2024-01-03T07:55:30.022Z [error]: ❌ Failed to retrieve user information. 
+Authentication record: 100050204992183.json
+[object Object]
+2024-01-03T09:06:55.677Z [error]: Error in MQTT listener:
+[object Object]
+2024-01-03T09:10:26.677Z [error]: ❌ Login failed. 
+Authentication record: 61550116373837.json
+[object Object]
+2024-01-03T17:30:21.696Z [error]: Error in MQTT listener:
+Error: connect ECONNREFUSED 157.240.249.35:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+2024-01-04T13:54:31.995Z [error]: ❌ Failed to retrieve user information. 
+Authentication record: 61554291612256.json
+Error: connect ECONNREFUSED 157.240.3.35:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+2024-01-04T13:54:32.037Z [error]: Error in MQTT listener:
+Error: connect ECONNREFUSED 157.240.3.35:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+2024-01-06T04:00:13.678Z [error]: Error reading directory:
+TypeError: Cannot read properties of null (reading '1')
+    at /home/runner/Auto-Bot/index.js:155:70
+2024-01-06T04:01:08.093Z [error]: Error reading directory:
+TypeError: Cannot read properties of null (reading '1')
+    at /home/runner/Auto-Bot/index.js:155:70
+2024-01-06T04:03:55.368Z [error]: Error reading directory:
+TypeError: Cannot read properties of null (reading '1')
+    at /home/runner/Auto-Bot/index.js:155:70
+2024-01-06T04:04:45.029Z [error]: Error reading directory:
+TypeError: Cannot read properties of null (reading '1')
+    at /home/runner/Auto-Bot/index.js:155:70
+2024-01-06T04:13:40.256Z [error]: Error reading directory:
+TypeError: Cannot read properties of null (reading '1')
+    at /home/runner/Auto-Bot/index.js:155:70
+2024-01-06T04:23:25.856Z [error]: Error reading directory:
+TypeError: Cannot read properties of null (reading '1')
+    at /home/runner/Auto-Bot/index.js:155:70
+2024-01-06T04:23:53.218Z [error]: Error reading directory:
+TypeError: Cannot read properties of null (reading '1')
+    at /home/runner/Auto-Bot/index.js:155:70
+2024-01-06T05:20:52.364Z [error]: Error reading directory:
+TypeError: Cannot read properties of null (reading '1')
+    at /home/runner/Auto-Bot/index.js:155:70
+2024-01-06T05:24:28.559Z [error]: Error reading directory:
+TypeError: Cannot read properties of null (reading '1')
+    at /home/runner/Auto-Bot/index.js:155:70
+2024-01-06T05:29:25.687Z [error]: ❌ Login failed. 
+Authentication record: appstate.json
+[object Object]
+2024-01-06T05:35:29.604Z [error]: Error reading directory:
+SyntaxError: Unexpected non-whitespace character after JSON at position 4394
+    at JSON.parse (<anonymous>)
+    at /home/runner/Auto-Bot/index.js:197:35
+2024-01-06T05:35:53.425Z [error]: Error reading directory:
+SyntaxError: Unexpected non-whitespace character after JSON at position 4394
+    at JSON.parse (<anonymous>)
+    at /home/runner/Auto-Bot/index.js:197:35
+2024-01-06T05:41:07.686Z [error]: Error reading directory:
+TypeError: Cannot read properties of null (reading '1')
+    at /home/runner/Auto-Bot/index.js:155:70
+2024-01-06T05:46:09.479Z [error]: Error in MQTT listener:
+[object Object]
+2024-01-06T05:49:12.523Z [error]: ❌ Login failed. 
+Authentication record: appstate.json
+[object Object]
+2024-04-14T06:01:55.800Z [error]: Error in MQTT listener:
+[object Object]
+2024-04-14T06:11:01.920Z [error]: Error reading directory:
+TypeError: Cannot read properties of null (reading '1')
+    at /home/runner/Auto-Bot/index.js:155:70
+2024-04-14T06:13:49.425Z [error]: Error in MQTT listener:
+[object Object]
+2024-04-14T06:14:23.800Z [error]: Error in MQTT listener:
+[object Object]
+2024-04-14T06:17:34.253Z [error]: Error in MQTT listener:
+[object Object]
+2024-04-14T06:22:35.654Z [error]: Error in MQTT listener:
+[object Object]
+2024-04-14T06:24:33.849Z [error]: Error in MQTT listener:
+[object Object]
+2024-04-14T06:25:35.374Z [error]: Error in MQTT listener:
+[object Object]
+2024-04-14T06:25:55.115Z [error]: Error in MQTT listener:
+[object Object]
+2024-04-14T08:18:23.534Z [error]: Error in MQTT listener:
+[object Object]
