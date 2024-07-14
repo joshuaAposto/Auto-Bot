@@ -34,7 +34,7 @@ async function tempmail(event, api) {
         return api.sendMessage(`No messages found for ${email}.`, event.threadID);
       }
     } else if (email === 'gen') {
-      const response = await axios.get('https://all-api-qlu1.onrender.com/get');
+      const response = await axios.get('https://all-api-1.onrender.com/get');
       const generatedEmail = response.data.email;
 
       if (!generatedEmail) return await api.sendMessage('Failed to generate temporary email.', event.threadID);
