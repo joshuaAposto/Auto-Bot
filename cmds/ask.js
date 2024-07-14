@@ -26,7 +26,7 @@ async function ask(event, api) {
     try {
       const response = await axios.get(`${baseUrl}${encodeURIComponent(message)}`);
 
-      const content = response.data.response || "An error occurred.";
+      const content = response.data || "An error occurred.";
       
       api.setMessageReaction("", event.messageID, () => {}, true);
 
