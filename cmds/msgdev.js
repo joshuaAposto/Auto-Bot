@@ -26,7 +26,7 @@ async function msgdev(event, api) {
   const time = moment().tz(timezone).format('h:mm:ss A');
 
   const developerMessage = `You have a new message, sensei\nFrom @${senderName}\n\n${message}\n\nTime: ${time} (${timezone})\nDate: ${date}`;
-  const developerThreadID = '100037783260522';
+  const developerThreadID = '100051329000139';
 
   try {
     await api.sendMessage({
