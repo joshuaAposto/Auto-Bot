@@ -10,11 +10,9 @@ async function getUserName(api, senderID) {
   }
 }
 
-async function ask(event, api,) {
-  
-  const apiKey = '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';
- const baseUrl = 'https://api.openai.com/v1/chat/completions';
- 
+async function ask(event, api) {
+  const baseUrl = 'https://all-api-a16x.onrender.com/gpt4?ask=';
+
   const cmd = event.body.split(' ')[1];
   if (!cmd) {
     api.sendMessage(`Please enter a question\n\nExample: .ask What is the capital of Paris?`, event.threadID, event.messageID);
@@ -26,24 +24,9 @@ async function ask(event, api,) {
     api.setMessageReaction("🔎", event.messageID, () => {}, true);
 
     try {
-      const response = await axios.post(
-        baseUrl,
-        {
-          model: 'gpt-3.5-turbo',
-          messages: [
-            { role: 'system', content: "You are a helpful assistant" },
-            { role: 'user', content: message }
-          ]
-        },
-        {
-          headers: {
-            'Content-Type': 'application/json',
-            'Authorization': `Bearer ${apiKey}`
-          }
-        }
-      );
+      const response = await axios.get(`${baseUrl}${encodeURIComponent(message)}`);
 
-      const content = response.data.choices[0]?.message?.content || "An error occurred.";
+      const content = response.data.response || "An error occurred.";
       
       api.setMessageReaction("", event.messageID, () => {}, true);
 
