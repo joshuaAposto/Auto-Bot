@@ -11,7 +11,7 @@ async function getUserName(api, senderID) {
 }
 
 async function ask(event, api) {
-  const baseUrl = 'https://all-api-a16x.onrender.com/gpt4?ask=';
+  const baseUrl = 'https://all-api-1.onrender.com/gpt4?ask=';
 
   const cmd = event.body.split(' ')[1];
   if (!cmd) {
