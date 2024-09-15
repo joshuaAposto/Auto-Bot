@@ -1,15 +1,15 @@
-entrypoint = "index.js"
-modules = ["nodejs-20:v8-20230920-bd784b9"]
+modules = ["nodejs-20", "web", "java-graalvm22.3", "nix"]
 hidden = [".config", "package-lock.json", "package.json", "Active.java", "error.log", ".lesson", "json", "gen"]
+run = "npm run start"
 
 [nix]
-channel = "stable-23_05"
+channel = "stable-24_05"
 
 [unitTest]
 language = "nodejs"
 
 [deployment]
-run = ["node", "index.js"]
+run = ["sh", "-c", "npm run start"]
 deploymentTarget = "cloudrun"
 ignorePorts = false
 
